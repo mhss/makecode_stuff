@@ -14,6 +14,22 @@ namespace ClassPoll {
      * This is a statement block
      */
     //% block
+    export function votesForA(): number {
+        return countA;
+    }
+
+    /**
+     * This is a statement block
+     */
+    //% block
+    export function votesForB(): number {
+        return countB;
+    }
+
+    /**
+     * This is a statement block
+     */
+    //% block
     export function setup() {
         radio.setGroup(1);
     }
@@ -70,7 +86,7 @@ namespace ClassPoll {
      * This is a statement block
      */
     //% block
-    export function printforStudent() {
+    export function printForStudent() {
         if (can_vote == 1) {
             basic.showString("A or B?")
         } else if (last_vote == 1) {
