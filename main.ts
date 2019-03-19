@@ -9,6 +9,14 @@ let teacher = 12345;
 
 //% color="#abcdef"
 namespace ClassPoll {
+    /**
+     * A simple event taking an function handler
+     */
+    //% block="on event"
+    export function onEvent(handler: () => void) {
+
+    }
+
 
     /**
      * This is a statement block
